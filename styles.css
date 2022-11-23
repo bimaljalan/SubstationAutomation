@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+h6 {
+    color: #D8D8D8;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-decoration: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #9c9687;
+}
+
+hr {
+    width: 30px;
+    height: 2px;
+    background-color: #fb774b;
+}
+
+.navbar {
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active .navbar i.active {
+    color: coral;
+}
+
+.logo {
+    color: #4c51eb;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    color: coral;
+}
+
+
+@media only screen and (max-width: 991px) {
+    #navbarSupportedContent>ul {
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    #navbarSupportedContent>ul>li:nth-child(n)>a {
+        padding: 10px 0;
+    }
+}
+
+#home {
+    background-image: url("./img/pics2.png");
+    width: 100%;
+    height: 100vh;
+    background-size: 90% 90%;
+    background-position: top 80px center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span {
+    color: coral;
+}
+
+
+footer {
+    background-color: #222222;
+}
+
+footer h5 {
+    color: #cce63a;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer h4 {
+    color: #fff
+}
+
+footer p {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.row img {
+    height: 75px;
+    width: 75px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box2 {
+    border: 1px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #19396c;
+    color: #fff;
+}
+
+.box2>* {
+    margin: 20px 0;
+}
+
+.hrz {
+    height: 450px;
+    width: 5px;
+    background-color: yellow;
+}
+
+.l-box {
+    margin-left: 250px;
+}
+
+.r-box {
+    margin-right: 250px;
+}

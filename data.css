@@ -1,0 +1,146 @@
+.section{
+    margin-top: 150px;
+}
+
+.section > h2{
+    text-align: center;
+    color: #19396c;
+}
+
+.heading{
+    color: #19396c;
+    font-size: 30px;
+    text-align: center;
+    margin-top:80px;
+}
+
+.motivation{
+    margin-left:100px;
+}
+
+.motivation > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.motivation > ul > li{
+    /* border: 1px solid; */
+    text-align: left;
+    margin-left: 10px;
+    width: 100%;
+    list-style: circle;
+    margin-left: 40px;
+}
+
+.objective{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.objective > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+}
+
+.objective > ul > li{
+    width: 100%;
+}
+
+.objective > img{
+    width: 250px;
+}
+
+.design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.design > p{
+    flex:0.4;
+}
+
+.design > img{
+    flex: 0.4;
+    width: 250px;
+    height: 250px;
+}
+
+.pics{
+    text-align: center;
+}
+
+.pics > img{
+    margin-top: 60px;
+    width: 750px;
+}
+
+.motiv{
+    border: 1px;
+    text-align: left;
+    margin:80px 20px 80px 100px;
+}
+
+.motiv h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.motiv ul{
+    margin-left: 30px;
+}
+
+.motiv p{
+    margin-left: 10px;
+}
+
+.motiv img{
+    float: right;
+    margin: 0 auto;
+    height:400px;
+    weight:400px;
+}
+
+.design{
+    margin: 20px 20px;
+}
+
+.design img{
+    height:400px;
+    weight:400px;
+}
+
+.design h4{
+    margin: 20px 40px;
+}
+
+.status-section{
+    margin-top:120px;
+    text-align: center;
+}
+
+.status-section > h2{
+    color: #19396c;
+}
+
+.status-section > img{
+    width: 700px;
+    height: 450px;
+}
+
+.status-section > h4{
+    border: 1px solid;
+    width: fit-content;
+    margin: 20px auto 50px auto;
+    background-color: #19396c;
+    color: #fff;
+    padding: 10px 20px;
+}
