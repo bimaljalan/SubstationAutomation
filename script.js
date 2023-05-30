@@ -7,10 +7,14 @@ var msg1=document.getElementById("msg1");
 var msg2=document.getElementById("msg2");
 var msg3=document.getElementById("msg3");
 
+var a = :="webdata".L1:
+var b = :="webdata".L2:
+var c = :="webdata".L3:
+
 data={
-    "line1":1,
-    "line2":0,
-    "line3":1
+    "line1":a,
+    "line2":b,
+    "line3":c
 }
 
 const getColor=(d)=>{
